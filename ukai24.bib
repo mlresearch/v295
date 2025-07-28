@@ -16,10 +16,19 @@
 }
 
 @InProceedings{ukai241,
-    title = {},
-    author = {},
+    title = {AI in the Public Eye: Analysing Social Media Sentiment and Opinion on Artificial Intelligence},
+    author = {Appiah, Ezekiel and Htait, Amal},
     pages = {},
-    abstract = {}
+    abstract = {Artificial Intelligence (AI), a rapidly evolving technology with far-reaching implications, has become a 
+	widely discussed topic on social media platforms. This study conducted a comprehensive sentiment analysis of posts 
+	discussing AI topics on Twitter, YouTube and Reddit from 2017 to 2024 to evaluate public perceptions and attitudes toward AI. 
+	A total of 133,004 social media posts were analysed using a fine-tuned RoBERTa model for sentiment classification, alongside 
+	Latent Dirichlet Allocation (LDA), n-gram, and word co-occurrence mapping for topic modelling. The analysis revealed that 
+	46.09\% of the posts express negative sentiments about AI, followed by 39.29\% neutral and 14.62\% positive sentiments. 
+	LDA uncovered 20 key topics, including AI ethics, job impacts, and philosophical implications. Temporal analysis revealed a 
+	significant surge in AI-related discourse from 2022 onward, with evolving sentiment patterns. These findings suggest a complex 
+	landscape of public AI perception, reflecting persistent concerns about societal impacts alongside increasing interest in AI's 
+	technical aspects.}
 }
 
 @InProceedings{ukai242,
@@ -30,22 +39,55 @@
 }
 
 @InProceedings{ukai243,
-    title = {},
-    author = {},
-    pages = {},
-    abstract = {}
+    title = {Enhancing Uncertainty Estimation with Deep Gaussian Processes},
+    author = {Oyebamiji, Oluwole and Dissanayake, Dilum and Cavus, Muhammed},
+    pages = {1-17},
+    abstract = {Accurately estimating uncertainty in predictive models is crucial for a wide range of applications, 
+		from decision-making in landuse modelling to robust forecasting in finance and autonomous systems. 
+		Gaussian processes (GPs) offer a solid framework for uncertainty quantification but often struggle with scalability 
+		and flexibility when applied to large, high-dimensional datasets. Deep Gaussian processes (DGPs) are a powerful 
+		extension of GPs that allow for multi-layer generalisation of GPs, enabling more flexible and expressive modelling of 
+		complex data. As the complexity of the model increases, so does the computational cost, which makes it difficult to 
+		scale DGP to large-dimensional data. Although variational inference has been used with large datasets, it often produces 
+		an overconfident uncertainty estimate because it does not effectively utilise input-dependent function uncertainty. 
+		This paper introduces an approach for enhancing uncertainty estimation using the predictive log-likelihood (PLL) objective 
+		with DGP model to address these limitations. This relies on a parametric GP regression model designed for a family of 
+		predictive distributions and incorporate a modified objective function to restore a full symmetry between various 
+		contributions to predictive variance. We evaluate the performance of our methods on several benchmark regressions and 
+		large-scale environmental datasets. The results show that the model provides more reliable uncertainty estimates, particularly 
+		in regions of sparse data, making them efficient for real-world applications.}
 }
 
 @InProceedings{ukai244,
-    title = {},
-    author = {},
-    pages = {},
-    abstract = {}
+    title = {Game-Theoretic Optimisation of EV Charging Network: Placement and Pricing Strategies via Atomic Congestion Game},
+    author = {Aminikalibar, Niloofar and Farhadi, Farzaneh and Chli, Maria},
+    pages = {1-10},
+    abstract = {The ``chicken-and-egg problem''  in Electric Vehicle (EV) charging reflects the interdependence between sufficient 
+	infrastructure and the demand needed to justify it, a challenge heightened by the UK’s 2030 ban on new combustion engine vehicles. 
+	To address this, we propose a joint optimisation model that determines the optimal number of charging points and pricing at each station, 
+	while accounting for traffic patterns. From a policy perspective, our model seeks to maximise public benefit by reducing EV users' social 
+	costs, travel and queuing time, and charging fees, while ensuring station operator profitability. We model driver decisions as two 
+	interconnected congestion games, one on roads and one at charging stations (CS), and solve for stable outcomes using Nash Equilibrium (NE) 
+	strategies. To ensure tractability, we develop an efficient approximation algorithm for the Mixed-Integer Nonlinear Program (MINLP) and 
+	introduce a generalisation technique that targets charger placement at high-impact locations, enhancing scalability to larger Transportation 
+	Networks (TN). Applied to a benchmark case, the model reduces overall social cost by at least 14\% compared to methods that optimise 
+	placement or pricing alone. This study tackles an AI challenge in modelling infrastructure with multi-agent behaviour, using game theory 
+	and optimisation to simulate interactions and enable learning-based approaches in transportation systems.}
 }
 
 @InProceedings{ukai245,
-    title = {},
-    author = {},
+    title = {Word Complexity Prediction Through ML-Based Contextual Analysis},
+    author = {Uzzam, Muhammad and Htait, Amal},
     pages = {},
-    abstract = {}
-} 
+    abstract = {This paper conducted a comparative evaluation two approaches  for predicting word complexity using 
+		contextual sentence information, a challenge that traditional methods often struggle to address. Two distinct methods 
+		were explored in this work. The first approach combines XLNet word embeddings with a Random Forest classifier to processes 
+		both sentence and word embeddings to predict complexity levels. The second approach employs a dual Bidirectional Encoder 
+		Representations from Transformers (BERT) model, consisting of two separate models: one for sentence-level complexity and 
+		another for word-level complexity, with their predictions combined for more context-sensitive result. A diverse dataset 
+		covering the domains of religion, biomedical, and parliamentary texts was used, as it is pre-categorised into five complexity 
+		levels (Very-easy, Easy, Medium, Hard, Very-hard). To ensure balanced class representation, data augmentation techniques were 
+		applied. Evaluation metrics revealed that the XLNet-based model has performed slightly superior to dual-BERT method, achieving 
+		macro-average F1-score  of 0.79, excelling particularly at identifying highly complex words (F1-score = 0.95). In comparison, 
+		dual-BERT achieved a macro-average F1-score equal to 0.78.}
+}
