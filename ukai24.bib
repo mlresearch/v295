@@ -1,47 +1,54 @@
 % PMLR Volume 295 - UK AI Conference 2024
 % Proceedings BibTeX file for PMLR submission
 
-@Proceedings{UKAI-2024,
+@Proceedings{ukai2024,
     booktitle = {Proceedings of the UK AI Conference 2024},
     name = {UK AI Conference},
-    shortname = {UK AI},
-    editor = {UK AI Organizing Committee},
+    shortname = {UK AI Conf},
+	year = {2024},
+    editor = {Benford, Alistair and Cabrera, Christian and Kiden, Sarah and Salili-James, Arianna and Zakka, Vincent},
     volume = {295},
-    year = {2024},
     start = {2024-11-22},
     end = {2024-11-22},
-    published = {2025-08-01},
+	address = {The Exchange, University of Birmingham, Birmingham, United Kingdom},
     conference_url = {https://uk-ai.org/ukai2024/},
-    address = {Birmingham, United Kingdom}
+	published = {2025-08-05},
+	conference_number = {2}
 }
 
-@InProceedings{ukai241,
+@InProceedings{appiah24,
     title = {AI in the Public Eye: Analysing Social Media Sentiment and Opinion on Artificial Intelligence},
     author = {Appiah, Ezekiel and Htait, Amal},
-    pages = {},
+    pages = {1-15},
     abstract = {Artificial Intelligence (AI), a rapidly evolving technology with far-reaching implications, has become a 
-	widely discussed topic on social media platforms. This study conducted a comprehensive sentiment analysis of posts 
-	discussing AI topics on Twitter, YouTube and Reddit from 2017 to 2024 to evaluate public perceptions and attitudes toward AI. 
-	A total of 133,004 social media posts were analysed using a fine-tuned RoBERTa model for sentiment classification, alongside 
-	Latent Dirichlet Allocation (LDA), n-gram, and word co-occurrence mapping for topic modelling. The analysis revealed that 
-	46.09\% of the posts express negative sentiments about AI, followed by 39.29\% neutral and 14.62\% positive sentiments. 
-	LDA uncovered 20 key topics, including AI ethics, job impacts, and philosophical implications. Temporal analysis revealed a 
-	significant surge in AI-related discourse from 2022 onward, with evolving sentiment patterns. These findings suggest a complex 
-	landscape of public AI perception, reflecting persistent concerns about societal impacts alongside increasing interest in AI's 
-	technical aspects.}
+		widely discussed topic on social media platforms. This study conducted a comprehensive sentiment analysis of posts 
+		discussing AI topics on Twitter, YouTube and Reddit from 2017 to 2024 to evaluate public perceptions and attitudes toward AI. 
+		A total of 133,004 social media posts were analysed using a fine-tuned RoBERTa model for sentiment classification, alongside 
+		Latent Dirichlet Allocation (LDA), n-gram, and word co-occurrence mapping for topic modelling. The analysis revealed that 
+		46.09\% of the posts express negative sentiments about AI, followed by 39.29\% neutral and 14.62\% positive sentiments. 
+		LDA uncovered 20 key topics, including AI ethics, job impacts, and philosophical implications. Temporal analysis revealed a 
+		significant surge in AI-related discourse from 2022 onward, with evolving sentiment patterns. These findings suggest a complex 
+		landscape of public AI perception, reflecting persistent concerns about societal impacts alongside increasing interest in AI's 
+		technical aspects.
+	}
 }
 
-@InProceedings{ukai242,
-    title = {},
-    author = {},
-    pages = {},
-    abstract = {}
+@InProceedings{cao24,
+    title = {Cat Royale: A Case Study of Artist-led AI Research},
+    author = {Cao, Dingbang  and Tandavanitj, Nick and Adams, Matt and Farr, Ju Row and Schneiders, Eike and Salimbeni, Guido and Pound, Mike and Mancini, Clara and Benford, Steve},
+    pages = {16-25},
+    abstract = {We explore artist-led research as a method to complement technical AI methodologies. We present a case study 
+		called Cat Royale in which artists created a robot to play with cats. We show how the artist-led development of this system 
+		involved extensive improvisation to create a socio-technical AI system that ultimately delivered a corpus of video data of cats 
+		interacting with robots. We introduce a machine learning tool that enables diverse stakeholders to explore this corpus. We reflect 
+		on the distinctive characteristics of artist-led AI research, the potential benefits to AI, and the tensions involved.
+	}
 }
 
-@InProceedings{ukai243,
+@InProceedings{oyebamiji24,
     title = {Enhancing Uncertainty Estimation with Deep Gaussian Processes},
     author = {Oyebamiji, Oluwole and Dissanayake, Dilum and Cavus, Muhammed},
-    pages = {1-17},
+    pages = {26-42},
     abstract = {Accurately estimating uncertainty in predictive models is crucial for a wide range of applications, 
 		from decision-making in landuse modelling to robust forecasting in finance and autonomous systems. 
 		Gaussian processes (GPs) offer a solid framework for uncertainty quantification but often struggle with scalability 
@@ -55,30 +62,32 @@
 		predictive distributions and incorporate a modified objective function to restore a full symmetry between various 
 		contributions to predictive variance. We evaluate the performance of our methods on several benchmark regressions and 
 		large-scale environmental datasets. The results show that the model provides more reliable uncertainty estimates, particularly 
-		in regions of sparse data, making them efficient for real-world applications.}
+		in regions of sparse data, making them efficient for real-world applications.
+	}
 }
 
-@InProceedings{ukai244,
+@InProceedings{aminikalibar24,
     title = {Game-Theoretic Optimisation of EV Charging Network: Placement and Pricing Strategies via Atomic Congestion Game},
     author = {Aminikalibar, Niloofar and Farhadi, Farzaneh and Chli, Maria},
-    pages = {1-10},
+    pages = {43-52},
     abstract = {The ``chicken-and-egg problem''  in Electric Vehicle (EV) charging reflects the interdependence between sufficient 
-	infrastructure and the demand needed to justify it, a challenge heightened by the UK’s 2030 ban on new combustion engine vehicles. 
-	To address this, we propose a joint optimisation model that determines the optimal number of charging points and pricing at each station, 
-	while accounting for traffic patterns. From a policy perspective, our model seeks to maximise public benefit by reducing EV users' social 
-	costs, travel and queuing time, and charging fees, while ensuring station operator profitability. We model driver decisions as two 
-	interconnected congestion games, one on roads and one at charging stations (CS), and solve for stable outcomes using Nash Equilibrium (NE) 
-	strategies. To ensure tractability, we develop an efficient approximation algorithm for the Mixed-Integer Nonlinear Program (MINLP) and 
-	introduce a generalisation technique that targets charger placement at high-impact locations, enhancing scalability to larger Transportation 
-	Networks (TN). Applied to a benchmark case, the model reduces overall social cost by at least 14\% compared to methods that optimise 
-	placement or pricing alone. This study tackles an AI challenge in modelling infrastructure with multi-agent behaviour, using game theory 
-	and optimisation to simulate interactions and enable learning-based approaches in transportation systems.}
+		infrastructure and the demand needed to justify it, a challenge heightened by the UK’s 2030 ban on new combustion engine vehicles. 
+		To address this, we propose a joint optimisation model that determines the optimal number of charging points and pricing at each station, 
+		while accounting for traffic patterns. From a policy perspective, our model seeks to maximise public benefit by reducing EV users' social 
+		costs, travel and queuing time, and charging fees, while ensuring station operator profitability. We model driver decisions as two 
+		interconnected congestion games, one on roads and one at charging stations (CS), and solve for stable outcomes using Nash Equilibrium (NE) 
+		strategies. To ensure tractability, we develop an efficient approximation algorithm for the Mixed-Integer Nonlinear Program (MINLP) and 
+		introduce a generalisation technique that targets charger placement at high-impact locations, enhancing scalability to larger Transportation 
+		Networks (TN). Applied to a benchmark case, the model reduces overall social cost by at least 14\% compared to methods that optimise 
+		placement or pricing alone. This study tackles an AI challenge in modelling infrastructure with multi-agent behaviour, using game theory 
+		and optimisation to simulate interactions and enable learning-based approaches in transportation systems.
+	}
 }
 
-@InProceedings{ukai245,
+@InProceedings{uzzam24,
     title = {Word Complexity Prediction Through ML-Based Contextual Analysis},
     author = {Uzzam, Muhammad and Htait, Amal},
-    pages = {},
+    pages = {53-61},
     abstract = {This paper conducted a comparative evaluation two approaches  for predicting word complexity using 
 		contextual sentence information, a challenge that traditional methods often struggle to address. Two distinct methods 
 		were explored in this work. The first approach combines XLNet word embeddings with a Random Forest classifier to processes 
@@ -89,5 +98,6 @@
 		levels (Very-easy, Easy, Medium, Hard, Very-hard). To ensure balanced class representation, data augmentation techniques were 
 		applied. Evaluation metrics revealed that the XLNet-based model has performed slightly superior to dual-BERT method, achieving 
 		macro-average F1-score  of 0.79, excelling particularly at identifying highly complex words (F1-score = 0.95). In comparison, 
-		dual-BERT achieved a macro-average F1-score equal to 0.78.}
+		dual-BERT achieved a macro-average F1-score equal to 0.78.
+	}
 }
