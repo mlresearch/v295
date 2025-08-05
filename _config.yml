@@ -1,0 +1,97 @@
+---
+booktitle: Proceedings of the UK AI Conference 2024
+shortname: UK AI Conf
+year: '2024'
+volume: '295'
+start: &1 2024-11-22
+end: 2024-11-22
+published: 2025-08-05
+conference_number: '2'
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: ukai2024
+month: 0
+cycles: false
+bibtex_editor: Benford, Alistair and Cabrera, Christian and Kiden, Sarah and Salili-James,
+  Arianna and Zakka, Vincent
+editor:
+- given: Alistair
+  family: Benford
+- given: Christian
+  family: Cabrera
+- given: Sarah
+  family: Kiden
+- given: Arianna
+  family: Salili-James
+- given: Vincent
+  family: Zakka
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the UK AI Conference 2024
+    Held in The Exchange, University of Birmingham, Birmingham, United Kingdom on 22 November 2024
+
+  Published as Volume 295 by the Proceedings of Machine Learning Research on 05 August 2025.
+
+  Volume Edited by:
+    Alistair Benford
+    Christian Cabrera
+    Sarah Kiden
+    Arianna Salili-James
+    Vincent Zakka
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 22 Nov
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v295"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v295
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v295
+email: ''
+conference:
+  name: UK AI Conference
+  url: https://uk-ai.org/ukai2024/
+  location: The Exchange, University of Birmingham, Birmingham, United Kingdom
+  dates:
+  - *1
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+link_visibility:
+  openreview: true
+  pdf: true
+  supplementary: true
+  software: true
+  video: true
+  arxiv: true
+  doi: true
+  website: true
+orig_bibfile: ukai24_clean.bib
+# Site settings
+# Original source:  ukai24_clean.bib
