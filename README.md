@@ -19,7 +19,7 @@ Volume Edited by:
   * Christian Cabrera
   * Sarah Kiden
   * Arianna Salili-James
-  * Vincent Gbouna Zakka
+  * Vincent Zakka
 
 Series Editors:
   * Neil D. Lawrence
