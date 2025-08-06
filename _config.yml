@@ -15,7 +15,7 @@ id: ukai2024
 month: 0
 cycles: false
 bibtex_editor: Benford, Alistair and Cabrera, Christian and Kiden, Sarah and Salili-James,
-  Arianna and Zakka, Vincent
+  Arianna and Zakka, Vincent Gbouna
 editor:
 - given: Alistair
   family: Benford
@@ -25,7 +25,7 @@ editor:
   family: Kiden
 - given: Arianna
   family: Salili-James
-- given: Vincent
+- given: Vincent Gbouna
   family: Zakka
 title: Proceedings of Machine Learning Research
 description: |
@@ -39,11 +39,11 @@ description: |
     Christian Cabrera
     Sarah Kiden
     Arianna Salili-James
-    Vincent Zakka
+    Vincent Zakka Gbouna
 
   Series Editors:
     Neil D. Lawrence
-date_str: 22 Nov
+date_str: 05 Aug
 url: https://proceedings.mlr.press
 author:
   name: PMLR
